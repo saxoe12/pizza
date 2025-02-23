@@ -1,0 +1,14 @@
+ {% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'main/style.css' %}"
+        <title></title>
+    </head>
+    <body>
+        <div class="menu">
+        <h1>PIZZAS MAMA</h1>
+        <h3>La passions des pizzas</h3>
+        </div>
+        <a class='lien' href="{% url 'menu:index'%}">Voir le menu</a>
+    </body>
+</html>

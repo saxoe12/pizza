@@ -1,0 +1,35 @@
+body{
+    background: url('/static/images/pizz.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu{
+
+    margin-top: 15rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    width: 30rem;
+    padding: 20px;
+    opacity: 0.6;
+    text-align: center;
+    margin-left: 29rem;
+}
+.lien{
+    text-decoration: none;
+    color: rgb(72, 12, 238);
+    font-size: 2rem;
+    margin-left: 40rem;
+    margin-top: 14rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    z-index: -2;
+    
+   
+   
+}

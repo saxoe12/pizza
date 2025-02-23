@@ -1,0 +1,19 @@
+{% load static %}
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="{% static 'menu/style.css' %}">
+    </head>
+    <body>
+        <img class="photo" src="{% static 'images/logo.jpg' %}" alt="">
+        <h1 class='title'>LES PIZZAS</h1>
+        <h4 class="sous">Nos Delices</h4>
+        {% for pizza in pizzas %}
+        <div class="items">
+            <span claa="name">{{pizza.name }}</span>
+            <span class="price">{{pizza.price  | floatformat:2}} €</span>
+            <span class="retour">{{pizza.ingredient}}</span>
+        </div>
+        {% endfor %}
+    </body>
+</html>cd 
